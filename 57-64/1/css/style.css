@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+    gap:10px 10px;
+    counter-reset:divcount;
+  }
+  .grid div{
+    background-color:#607d8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid>div::before{
+    counter-increment: divcount;
+    content:"element " counter(divcount);
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }

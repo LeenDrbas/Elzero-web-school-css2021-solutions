@@ -1,0 +1,8 @@
+
+h1{
+    text-transform: capitalize;
+    text-shadow: 1px 1px 0.2px rgb(241, 4, 4),
+                2px 2px 0.2px rgb(75, 185, 212),
+                3px 3px 0.2px rgb(95, 0, 204)                
+}
+

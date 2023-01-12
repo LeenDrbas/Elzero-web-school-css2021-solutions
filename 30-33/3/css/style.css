@@ -1,0 +1,28 @@
+.base{
+    width: 400px;
+    margin: auto;
+    list-style: none;
+}
+.li-base{
+margin-top: 30px;
+background-color: #eee;
+padding: 10px;
+}
+li{
+    margin: 5px;
+}
+ol{
+    list-style-position: outside;
+    padding-left: 30px;
+}
+ol li{
+    background-color: rgb(255, 255, 255);
+}
+ul{
+    list-style-position: inside;
+    padding-left: 0px;
+}
+ul li{
+    background-color: #fff;
+    padding-left: 10px;
+}

@@ -1,0 +1,42 @@
+:root{
+    --main-color:#009688;
+}
+h1{
+    width: 150px;
+    margin:50px auto;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--main-color);
+}
+h1::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: -18px;
+    background-color: var(--main-color);
+    z-index: -1;
+    transform: skewx(20deg);
+    -webkit-transform: skewx(20deg);
+    -moz-transform: skewx(20deg);
+    -ms-transform: skewx(20deg);
+    -o-transform: skewx(20deg);
+}
+h1::before{
+    content: "";
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:-50px;
+    background-color: var(--main-color);
+    transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -moz-transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+}

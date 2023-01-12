@@ -1,0 +1,41 @@
+div{
+    position: relative;
+    background-color: #eee;
+    padding: 20px;
+    width: 400px;
+    margin:auto;
+    border-width: 2px;
+    border-color: tomato rgb(26, 134, 223);
+    border-style: solid;
+    margin-top: 20px;
+
+}
+span{
+    color: azure;
+    padding: 1px 8px;
+    position: absolute;
+    background-color:rgb(26, 134, 223);
+}
+.top-left,
+.bottom-left{
+    
+    left: -12px;
+    border-right: 2px solid tomato;
+}
+.top-left{
+    top: -12px;
+}
+.bottom-left{
+    bottom: -12px;
+}
+.top-right,.bottom-right{
+
+right: -12px;
+border-left: 2px solid tomato;
+}
+.top-right{
+    top: -12px;
+}
+.bottom-right{
+    bottom: -12px;
+}

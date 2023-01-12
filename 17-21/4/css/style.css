@@ -1,0 +1,9 @@
+
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-bottom: 5px solid rgb(15, 97, 97);
+    background-color: rgb(24, 155, 155);
+}

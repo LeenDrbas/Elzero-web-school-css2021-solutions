@@ -1,0 +1,6 @@
+/* div[title]:not([title*="Elzero"]),body>div:nth-of-type(3){
+    color: red;
+} */
+div[title]:nth-last-of-type(n+4) {
+    color: red;
+  }

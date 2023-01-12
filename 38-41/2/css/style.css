@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    border-top-left-radius: 10px 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px 20px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 0px 10px 0 #333333d4 inset
+}

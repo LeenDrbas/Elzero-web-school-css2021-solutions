@@ -1,0 +1,22 @@
+div {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(238 238 238);
+    background-image: url(../img/1.png);
+    margin: 5%;
+}
+.assign-2-shape-1{
+    background-repeat: no-repeat;
+}
+.assign-2-shape-2{
+    background-repeat: repeat-y;
+    background-position: 0% 100%;
+   
+}
+.assign-2-shape-3{
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.assign-2-shape-4{
+    background-repeat: repeat;
+}

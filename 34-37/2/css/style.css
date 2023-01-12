@@ -1,0 +1,20 @@
+div{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    background-color: #eee;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div::first-letter{
+    content: "";
+    background-color: red;
+    color: white;
+    padding: 10px;
+    float: left;
+    margin-left: -46px;
+    margin-top: -11px;
+}
+

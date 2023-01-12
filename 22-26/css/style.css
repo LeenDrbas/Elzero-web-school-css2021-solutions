@@ -1,0 +1,47 @@
+/* 11111111111111 */
+/* div{
+    border: 2px solid rgb(33, 131, 223);
+    padding: 20px;
+    text-align: center;
+}
+p{
+    border: inherit;
+    padding: inherit;
+    background-color: rgb(233, 228, 221);
+} */
+
+/* 222222222222222 */
+/* p{
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.one{
+    font-style: italic;
+}
+.two,
+.one{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.two,.three{
+    font-weight: bold;
+} */
+
+
+/* 3333333333333333 */
+html{
+    font-size: 20px;
+}
+p{
+    text-transform: capitalize;
+    text-align: center;
+}
+.one{
+    font-size: 2.5rem;
+}
+.two{
+     font-size: 2rem;  
+}
+.thr{
+    font-size: 1.5rem;
+}

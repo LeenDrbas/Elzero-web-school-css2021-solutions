@@ -1,0 +1,17 @@
+div{
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.one{
+    background-color:#eee;
+}
+.three{
+    background-color: rgb(238 238 238 / 29%);
+}
+:empty{
+    background-color: red;
+}

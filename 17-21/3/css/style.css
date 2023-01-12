@@ -1,0 +1,13 @@
+
+
+div{
+    padding: 20px;
+    width: 400px;
+    margin: 20px;
+    background-color: rgb(235, 235, 235);
+}
+.third{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

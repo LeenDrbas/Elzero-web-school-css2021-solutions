@@ -1,0 +1,13 @@
+div{
+    background-color: brown;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    max-width: 400px;
+    width: fit-content;
+   
+}
+.d4{
+    max-height: 50px;
+    overflow:hidden;
+}

@@ -1,0 +1,28 @@
+table{
+    width: 700px;
+    margin: auto;
+    border-spacing: 0px;
+}
+thead td{
+    background-color: rgb(83, 78, 78);
+    color: white;
+    padding: 7px;
+    text-align: center;
+}
+td{
+    background-color: #eee;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+
+}
+.view{
+    background-color: rgb(70, 101, 201);
+    color: antiquewhite;
+    border:none;
+}
+.delete{
+    background-color: rgb(230, 41, 151);
+    color: antiquewhite;
+    border: none;
+}

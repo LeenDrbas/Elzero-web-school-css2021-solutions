@@ -1,0 +1,27 @@
+div {
+    width: 400px;
+    height: 400px;
+    background-color:rgb(238 238 238);
+    background-image: url(../img/1.png);
+    margin: 5%;
+}
+
+.assign-2-shape-1{
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+.assign-2-shape-2{
+    background-repeat: no-repeat;
+    background-size:80% 100%;
+    background-position: right;
+}
+.assign-2-shape-3{
+    background-repeat: no-repeat;
+    background-size:100% 80%;
+    background-position: bottom;
+}
+.assign-2-shape-4{
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-position:bottom right;
+}

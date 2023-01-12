@@ -1,0 +1,31 @@
+.outter{
+    text-align: center;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    padding: 30px;
+    background-color:#f2f2f4 ;
+    transition: margin-top .5s;
+    -webkit-transition: margin-top .5s;
+    -moz-transition: margin-top .5s;
+    -ms-transition: margin-top .5s;
+    -o-transition: margin-top .5s;
+}
+.inner{
+    background-color: #dededc;
+    margin-top: 10px;
+    padding: inherit;
+    transition: margin-top .2s .5s;
+    -webkit-transition: margin-top .2s .5s;
+    -moz-transition: margin-top .2s .5s;
+    -ms-transition: margin-top .2s .5s;
+    -o-transition: margin-top .2s .5s;
+}
+.outter:hover{
+    margin-top: 10px;
+}
+.outter:hover .inner{
+    margin-top: 40px;
+}

@@ -1,0 +1,12 @@
+/* :root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+  } */
+  
+  div {
+    color: var(--mainColor, red);
+    padding: var(--mainPadding,10px);
+    border: 2px solid var(--mainColor,black);
+    margin: 20px;
+    font-size: 1.2rem;
+  }

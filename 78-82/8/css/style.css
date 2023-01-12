@@ -1,0 +1,6 @@
+/* div:not(:first-child ,:last-child), p{
+    color: red;
+} */
+div *:not(:nth-child(1),:nth-child(4),:nth-child(6),:nth-child(7)) {
+    color: red;
+}  

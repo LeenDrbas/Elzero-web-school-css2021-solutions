@@ -1,0 +1,9 @@
+div > :nth-child(2){
+    color: red;
+}
+.parent > :nth-of-type(2){
+    color: red;
+}
+.parent>.child:last-child {
+    color: red;
+  }

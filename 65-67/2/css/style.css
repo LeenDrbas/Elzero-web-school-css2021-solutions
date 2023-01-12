@@ -1,0 +1,74 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin:auto;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+div::after{
+    content: "";
+    height:100%;
+    width:100%;
+    border: 10px solid rgb(233 30 99);
+    border-left: 10px solid transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    transition: .5s transform ;
+    -webkit-transition: .5s transform ;
+    -moz-transition: .5s transform ;
+    -ms-transition: .5s transform ;
+    -o-transition: .5s transform ;
+}
+div::before{
+    content: "";
+    height:110%;
+    width:110%;
+    border: 10px solid rgb(33 150 243);
+    border-right: 10px solid transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    transition: .5s .5s transform ;
+    -webkit-transition: .5s .5s transform ;
+    -moz-transition: .5s .5s transform ;
+    -ms-transition: .5s .5s transform ;
+    -o-transition: .5s .5s transform ;
+}
+div:hover::after{
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+}
+div:hover::before{
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+}

@@ -1,0 +1,15 @@
+div{
+    margin: 20px;
+    background-color: rgb(228, 228, 228);
+    padding: 15px;
+    outline: 6px solid  rgb(228, 228, 228); ;
+}
+.shape1{
+    border-left: 5px solid #e91e63;;
+}
+.shape2{
+   visibility:hidden;
+}
+.shape3{
+    border-left: 5px solid #009688;
+}
